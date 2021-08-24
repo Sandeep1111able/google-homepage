@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ color: #97999C;
+ position: relative;
+ min-height: 100vh;
+ font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+    color: #404040;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar{
+    padding: 1.5em 1.6em;
+   
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+.nav-items a{
+    margin-right: 0.8em;
+}
+
+.btn-sign-in{
+    text-decoration: none;
+    background-color: #4386F9;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.75em;
+
+}
+
+
+.app:hover{
+    color: #000;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.search-bar{
+    display: flex;
+    margin: 1.5em;
+    align-items: center;
+    padding: 0.75em 1em;
+    border: 1px solid #c0c4c9 ;
+    width: 450px;
+    border-radius: 30px;
+}
+
+.search-bar:hover{
+    box-shadow: 0 0 3px;
+}
+
+.search-bar span{
+    font-size: 1.3rem;
+    margin-right: 0.75em;
+}
+
+.search-bar input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.search-btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    padding: 0.5em 0.75em;
+    background-color: #f3f3f3;
+    color: #5F6368;
+    box-shadow: none;
+}
+
+.search-btn:hover{
+    border: 0.5px solid rgb(199, 192, 192);
+    color: #000;
+    text-decoration: none;
+}
+.search-btn::-moz-focus-inner {
+    border: 0;
+  }
+  
+
+
+
+.footer{
+   
+    position: sticky;
+    top: 100%;
+    font-size: 0.94rem;
+    background-color: #F2F2F2;
+    padding: 1.5em 1.6em;
+  
+}
+
+.footer a{
+    margin-right: 0.8em;
+}
